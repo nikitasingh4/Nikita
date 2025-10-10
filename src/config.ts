@@ -8,9 +8,9 @@ import type {
 } from "./types/config";
 
 export const identity: Identity = {
-  name: "alex wang",
+  name: "Nikita Singh",
   logo: "/pfp2.jpg",
-  email: "alexwang2023@gmail.com",
+  email: "rajputnikitasingh43@gmail.com",
 };
 
 export const navBarLinks: NavBarLink[] = [
@@ -31,26 +31,20 @@ export const navBarLinks: NavBarLink[] = [
 export const socialLinks: SocialLink[] = [
   {
     title: "GitHub",
-    url: "https://github.com/alewoo",
+    url: "https://github.com/nikitasingh4",
     icon: "mdi:github",
     external: true,
   },
   {
     title: "LinkedIn",
-    url: "https://www.linkedin.com/in/alexwang-/",
+    url: "https://www.linkedin.com/in/nikitasingh4",
     icon: "mdi:linkedin",
     external: true,
   },
   {
-    title: "Twitter",
-    url: "https://www.twitter.com/imalexwang",
-    icon: "mdi:twitter",
-    external: true,
-  },
-  {
-    title: "SubStack",
-    url: "https://imalexwang.substack.com/",
-    icon: "mdi:blog",
+    title: "Email",
+    url: "mailto:rajputnikitasingh43@gmail.com",
+    icon: "mdi:email",
     external: true,
   },
 ];
@@ -58,13 +52,13 @@ export const socialLinks: SocialLink[] = [
 // Home (/)
 export const homePageContent: HomePageContent = {
   seo: {
-    title: "alex wang",
-    description: "building tools that empower the next generation",
+    title: "Nikita Singh",
+    description: "Data analyst passionate about finding insights that help businesses grow",
     image: identity.logo,
   },
-  role: "cs @ georgia tech | ai + hci researcher | director of ship it @ startup exchange",
+  role: "business analyst | data analytics | excel · sql · python · tableau",
   description:
-    "i combine design, code, and ai to build products that matter.\n\ncurrently:\n• building datematch.lol (250+ users)\n• researching human-ai interaction @ gt\n• leading ship it @ startup exchange\n",
+    "I'm a data analyst with a passion for finding insights that help businesses grow.\n\ncurrently:\n• Jr. Business Analyst @ Movidu Technology\n• Building data-driven solutions for 25+ partner companies\n• Specializing in Excel, SQL, Python, and Tableau\n",
   socialLinks: socialLinks,
   links: [
     {
@@ -82,38 +76,41 @@ export const homePageContent: HomePageContent = {
 export const aboutPageContent: AboutPageContent = {
   seo: {
     title: "about",
-    description: "cs student at georgia tech",
+    description: "Data analyst with expertise in business analytics and data-driven solutions",
     image: identity.logo,
   },
   subtitle: "my story",
   about: {
     description: `
-hi, i'm alex 👋
+hi, i'm Nikita 👋
 
-i discovered my love for building at 16 — starting with a graphic design 
-community that grew to 1.5k members during covid.
+I'm a data analyst with a passion for finding insights that help businesses grow.
+Currently based in Noida, I combine analytical thinking with business acumen to
+drive meaningful results.
 
-that spark for creation led me down an unconventional path:
-• released music with 10k+ streams at 17
-• led varsity squash team to #1 public hs ranking
-• studied abroad in china at 19
+my journey:
+• MBA in Business Analytics from GL Bajaj Institute (2025)
+• BMS in Business & Finance from Gopal Narayan Singh University (2023)
+• Strong foundation in data analysis, visualization, and business intelligence
 
-now, i build products that matter:
-• launched datematch.lol in 3 days (250+ users)
-• exploring ai + hci research @ georgia tech
-• leading ship it @ startup exchange
-• building tools at the intersection of human-ai interaction
+what i do:
+• Jr. Business Analyst at Movidu Technology (Jan 2025 - Present)
+  - Automating MIS reports using Excel and Power BI for 25+ partner companies
+  - Analyzing 10,000+ candidate assessment records, improving pass rates by 14%
+  - Building dashboards that increased partner engagement by 12%
 
-these experiences taught me one thing: whether it's building 
-communities, creating music, or launching products, i'm driven by the 
-desire to innovate and make an impact.
+• Previously Analytics Intern at The Outlook (Sep - Dec 2024)
+  - Cleaned 10,000+ e-commerce customer activity logs, reducing errors by 15%
+  - Customer segmentation that boosted email click-through rates by 25%
+  - Transaction analysis identifying peak sales patterns and seasonal trends
 
-i value doing the right thing, being a good human, and fostering genuine 
-relationships. through design, code, and creativity, i aim to build a 
-better world — redefining the boundaries of what's possible.
+my approach to data:
+I believe data tells stories that drive decisions. Whether it's analyzing
+customer behavior, tracking KPIs, or building predictive models, I focus on
+translating complex data into actionable business insights.
 
-currently building in atlanta.
-open to conversations and opportunities.`,
+currently working in Noida.
+open to conversations and opportunities in data analytics.`,
     image_l: {
       url: "/pic2.jpg",
       alt: "Left Picture",
@@ -132,69 +129,29 @@ open to conversations and opportunities.`,
   timeline: {
     items: [
       {
-        year: "jan 2025 - present",
-        title: "ai + hci researcher",
+        year: "jan 2025 - sep 2025",
+        title: "jr. business analyst @ movidu technology",
         description:
-          "conducting research at the intersection of AI and human-computer interaction to build more intuitive and user-centric AI systems.",
+          "collaborating with operations and analytics teams to prepare and automate weekly MIS reports using Excel and Power BI. Analyzing 10,000+ candidate assessment records from Movidu's AI hiring tool, boosting candidate pass rates by 14%. Building dashboards for 25+ academic institutions, increasing partner engagement by 12%.",
       },
-      // {
-      //   year: "nov 2024 - present",
-      //   title: "swe resident @ headstarter",
-      //   description: "building ai/full-stack projects.",
-      // },
       {
-        year: "aug 2024 - present",
-        title: "director of ship it @ startup exchange",
+        year: "sep 2024 - dec 2024",
+        title: "analytics intern @ the outlook",
         description:
-          "leading georgia tech's premier startup organization to foster innovation across campus.",
+          "cleaned and validated 10,000+ e-commerce customer activity logs in Excel, reducing reporting errors by 15%. Worked with CRM and marketing teams for customer segmentation, increasing click-through rates by 25%. Analyzed 12 months of transaction data using Pandas and Matplotlib to identify peak sales patterns.",
       },
-      // {
-      //   year: "may 2024 - aug 2024",
-      //   title: "founder & software engineer @ unpackd",
-      //   description:
-      //     "building full-stack AI-driven educational platform revolutionizing the way people learn.",
-      // },
-      // {
-      //   year: "may 2024 - aug 2024",
-      //   title: "study abroad in china",
-      //   description:
-      //     "immersed in chinese culture and language while exploring new perspectives.",
-      // },
-      // {
-      //   year: "apr 2024 - jun 2024",
-      //   title: "founding fellow @ catalyst xl",
-      //   description:
-      //     "4-week startup cohort diving deep into building startups.",
-      // },
-      // {
-      //   year: "jan 2024 - apr 2024",
-      //   title: "software engineer intern @ driving forward",
-      //   description:
-      //     "developed generative ai chatbot to handle healthcare inquiries using python and NLP models.",
-      // },
-      // {
-      //   year: "nov 2023 - feb 2024",
-      //   title: "software engineer intern @ develop for good",
-      //   description: "refactored nonprofit web app's backend to C#.",
-      // },
-      // {
-      //   year: "2023",
-      //   title: "#1 public high school squash team",
-      //   description:
-      //     "led and captained varsity squash team to become the top public high school team in the nation.",
-      // },
-      // {
-      //   year: "2022",
-      //   title: "woo szn by ale woo",
-      //   description:
-      //     "released rap album reaching 10k+ streams, exploring music production and creativity.",
-      // },
-      // {
-      //   year: "2020",
-      //   title: "founder @ design center",
-      //   description:
-      //     "built and scaled a graphic design community to 1.5k members during covid.",
-      // },
+      {
+        year: "2023 - may 2025",
+        title: "mba - business analytics",
+        description:
+          "pursuing MBA with major in Business Analytics from GL Bajaj Institute of Technology and Management, Greater Noida. Focusing on data-driven decision making, business intelligence, and analytical methodologies.",
+      },
+      {
+        year: "2020 - jun 2023",
+        title: "bms - business and finance",
+        description:
+          "bachelor of management studies with major in Business and Finance from Gopal Narayan Singh University, Sasaram. Built strong foundation in business fundamentals and financial analysis.",
+      },
     ],
   },
 };
@@ -206,62 +163,61 @@ export const projectsPageContent: ProjectPageContent = {
     description: "Check out what I've been working on.",
     image: identity.logo,
   },
-  subtitle: "building tools that solve real problems.",
+  subtitle: "data-driven projects solving real business problems.",
   projects: [
     {
-      title: "datematch",
-      skills: "next.js · typescript · supabase · openai",
+      title: "Retail Sales Trends Insights",
+      skills: "python · jupyter · pandas · numpy · matplotlib",
       description:
-        "reimagining college dating through personality analytics. built and launched in 3 days, reaching 250+ users and 40+ signups in its first week at georgia tech.",
+        "analyzed 53K+ retail transactions to identify customer behavior patterns and seasonal demand shifts. Discovered peak sales in May and found that women spent more on clothing during seasonal promotions. Used correlation analysis to confirm winter as the most profitable season, informing inventory planning.",
       image: "/datematch.png",
-      year: "feb 2025",
-      url: "https://datematch.lol",
+      year: "feb 2025 - mar 2025",
+      url: "https://github.com/nikitasingh4",
     },
-    // },
-    // {
-    //   title: "cassandra",
-    //   skills: "python · jupyter · scikit-learn · yfinance",
-    //   description:
-    //     "a market analysis tool leveraging machine learning to detect potential market crashes and anomalies, providing real-time risk assessments and trading recommendations based on multiple market indicators.",
-    //   image: "/cassandra.png",
-    //   year: "jan 2025",
-    //   url: "https://github.com/alewoo/cassandra",
-    // },
-    // {
-    //   title: "codebase rag chatbot",
-    //   skills: "python · langchain · pinecone · groq",
-    //   description:
-    //     "an ai-powered chatbot that allows users to query and interact with codebases using natural language, built with pinecone for vector search and groq's llm for intelligent responses.",
-    //   image: "/project5.png",
-    //   year: "nov 2024",
-    //   url: "https://github.com/alewoo/codebase-rag-streamlit",
-    // },
-    // {
-    //   title: "bank customer churn predictor",
-    //   skills: "python · scikit-learn · pandas · matplotlib",
-    //   description:
-    //     "a machine learning model using Python and scikit-learn to predict bank customer churn rates based on customer data and behavior patterns.",
-    //   image: "/project1.png",
-    //   year: "oct 2024",
-    //   url: "https://github.com/alewoo/BankChurnPredictor",
-    // },
-    // {
-    //   title: "honeycomb",
-    //   skills: "react · typescript · next.js · firebase · mongoDB",
-    //   description:
-    //     "a personalized roadmap platform that helps students land internships by leveraging ai to curate tailored projects, mentors, clubs, and classes based on their career goals.",
-    //   image: "/honey.png",
-    //   year: "sep 2023",
-    //   url: "https://github.com/RishabhK9/honeycomb",
-    // },
-    // {
-    //   title: "unpackd",
-    //   skills: "react · typescript · openai · langchain",
-    //   description:
-    //     "an ai-powered book insights platform that generates personalized action plans from non-fiction books, helping users learn more effectively in less time.",
-    //   image: "/unpackd.png",
-    //   year: "july 2024",
-    //   url: "https://unpackd.net",
-    // },
+    {
+      title: "Walmart Sales Data Analysis",
+      skills: "sql · database management · business intelligence",
+      description:
+        "maintained a database of 1,000+ Walmart sales records across three branches. Analyzed sales trends using SQL, uncovering that Electronic Accessories were top-selling items and E-Wallets were the preferred payment method for 38% of customers. Identified a 20% revenue gap between branches.",
+      image: "/project1.png",
+      year: "jan 2025 - feb 2025",
+      url: "https://github.com/nikitasingh4",
+    },
+    {
+      title: "Tableau Dashboards",
+      skills: "tableau · data visualization · kpi tracking",
+      description:
+        "created interactive dashboards including Kress Maintenance Prediction for predictive maintenance analytics, Netflix Data Analysis for content performance insights, and Airbnb Market Analysis for pricing and occupancy trends. Focused on actionable insights and intuitive visualization design.",
+      image: "/project5.png",
+      year: "jan 2025 - feb 2025",
+      url: "https://github.com/nikitasingh4/Tableau-Project",
+    },
+    {
+      title: "Bank Churn Predictor",
+      skills: "python · scikit-learn · smote · feature engineering",
+      description:
+        "end-to-end churn prediction system with model ensemble and SMOTE for handling imbalanced data. Built comprehensive feature engineering pipeline to identify at-risk customers and predict bank customer churn rates with high accuracy.",
+      image: "/project1.png",
+      year: "2024",
+      url: "https://github.com/nikitasingh4",
+    },
+    {
+      title: "Hardware Company Sales Insights",
+      skills: "sql · data analysis · business metrics",
+      description:
+        "analyzed hardware company sales data to uncover revenue trends, top-performing products, and regional sales patterns. Provided actionable insights for sales strategy optimization and inventory management.",
+      image: "/honey.png",
+      year: "2024",
+      url: "https://github.com/nikitasingh4",
+    },
+    {
+      title: "SQL Music Store Analysis",
+      skills: "sql · query optimization · analytics",
+      description:
+        "comprehensive SQL analysis of music store database, demonstrating proficiency in complex queries, joins, aggregations, and window functions. Uncovered customer purchase patterns, popular genres, and revenue optimization opportunities.",
+      image: "/project5.png",
+      year: "2024",
+      url: "https://github.com/nikitasingh4/SQL_Music_Store_Analysis-",
+    },
   ],
 };
