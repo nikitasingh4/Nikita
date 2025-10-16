@@ -53,12 +53,13 @@ export const socialLinks: SocialLink[] = [
 export const homePageContent: HomePageContent = {
   seo: {
     title: "Nikita Singh",
-    description: "Data analyst passionate about finding insights that help businesses grow",
+    description:
+      "Business Analyst passionate about turning data into decisions using SQL, Excel, Power BI, and Tableau.",
     image: identity.logo,
   },
-  role: "business analyst | data analytics | excel · sql · python · tableau",
+  role: "Business Analyst | Excel · SQL · Power BI · Tableau",
   description:
-    "I'm a data analyst with a passion for finding insights that help businesses grow.\n\ncurrently:\n• Jr. Business Analyst @ Movidu Technology\n• Building data-driven solutions for 25+ partner companies\n• Specializing in Excel, SQL, Python, and Tableau\n",
+    "I'm a data-driven Business Analyst with experience in analytics, reporting, and visualization.\n\nworked on:\n• Preparing and automating MIS dashboards in Excel & Power BI @ Movidu Technology\n• Cleaning, validating, and analyzing 10K+ data records @ Outlook Publishing\n• Building SQL & Tableau projects – Music Store Analysis, Case Study Portfolio, and Airbnb Market Insights\n",
   socialLinks: socialLinks,
   links: [
     {
@@ -76,7 +77,8 @@ export const homePageContent: HomePageContent = {
 export const aboutPageContent: AboutPageContent = {
   seo: {
     title: "about",
-    description: "Data analyst with expertise in business analytics and data-driven solutions",
+    description:
+      "Business Analyst with expertise in SQL, Excel, and data visualization using Tableau and Power BI.",
     image: identity.logo,
   },
   subtitle: "my story",
@@ -84,45 +86,40 @@ export const aboutPageContent: AboutPageContent = {
     description: `
 hi, i'm Nikita 👋
 
-I'm a data analyst with a passion for finding insights that help businesses grow.
-Currently based in Noida, I combine analytical thinking with business acumen to
-drive meaningful results.
+I'm a Business Analyst with a passion for transforming data into actionable insights that help organizations grow.
+Based in Delhi-NCR, I combine analytical thinking with business understanding to solve data challenges.
 
 my journey:
 • MBA in Business Analytics from GL Bajaj Institute (2025)
 • BMS in Business & Finance from Gopal Narayan Singh University (2023)
-• Strong foundation in data analysis, visualization, and business intelligence
+• Developed strong expertise in SQL, Excel, Power BI, and Tableau for business intelligence and analytics
 
 what i do:
-• Jr. Business Analyst at Movidu Technology (Jan 2025 - Present)
-  - Automating MIS reports using Excel and Power BI for 25+ partner companies
-  - Analyzing 10,000+ candidate assessment records, improving pass rates by 14%
-  - Building dashboards that increased partner engagement by 12%
+• Jr. Business Analyst at Movidu Technology (Jan 2025 – Sep 2025)
+  - Prepared and automated weekly MIS dashboards in Excel and Power BI
+  - Analyzed 10K+ candidate assessment records from Movidu’s AI hiring tool, improving test quality and pass rates
+  - Created dashboards for 25+ academic institutions, increasing data visibility and engagement
 
-• Previously Analytics Intern at The Outlook (Sep - Dec 2024)
-  - Cleaned 10,000+ e-commerce customer activity logs, reducing errors by 15%
-  - Customer segmentation that boosted email click-through rates by 25%
-  - Transaction analysis identifying peak sales patterns and seasonal trends
+• Analytics Intern at Outlook Publishing (Sep 2024 – Dec 2024)
+  - Cleaned and validated 10,000+ subscriber activity records in Excel, improving accuracy by 15%
+  - Segmented readers based on engagement to support personalized campaigns, increasing click-through by 25%
+  - Wrote SQL queries to analyze churn and engagement, providing actionable insights to marketing teams
 
 my approach to data:
-I believe data tells stories that drive decisions. Whether it's analyzing
-customer behavior, tracking KPIs, or building predictive models, I focus on
-translating complex data into actionable business insights.
+I believe every dataset has a story to tell. I focus on uncovering patterns and trends that inform better business decisions.
+From tracking KPIs to building dashboards, I aim to bridge the gap between data and strategy.
 
-currently working in Noida.
-open to conversations and opportunities in data analytics.`,
+open to opportunities in business analytics and data-driven problem solving.`,
     image_l: {
       url: "/pic2.jpg",
       alt: "Left Picture",
     },
     image_m: {
       url: "/IMG_8828.JPG",
-      // url: "/SU24 Maker Venture Photo 2.jpg",
       alt: "Middle Picture",
     },
     image_r: {
       url: "/IMG_3610.jpg",
-      // url: "/SU24 Maker Venture Photo 2.jpg",
       alt: "Right Picture",
     },
   },
@@ -132,25 +129,25 @@ open to conversations and opportunities in data analytics.`,
         year: "jan 2025 - sep 2025",
         title: "jr. business analyst @ movidu technology",
         description:
-          "collaborating with operations and analytics teams to prepare and automate weekly MIS reports using Excel and Power BI. Analyzing 10,000+ candidate assessment records from Movidu's AI hiring tool, boosting candidate pass rates by 14%. Building dashboards for 25+ academic institutions, increasing partner engagement by 12%.",
+          "collaborated with operations and analytics teams to automate weekly MIS dashboards in Excel and Power BI. analyzed 10,000+ candidate records to identify patterns improving assessment quality. created dashboards for 25+ institutions to visualize placement and performance metrics.",
       },
       {
         year: "sep 2024 - dec 2024",
-        title: "analytics intern @ the outlook",
+        title: "analytics intern @ outlook publishing",
         description:
-          "cleaned and validated 10,000+ e-commerce customer activity logs in Excel, reducing reporting errors by 15%. Worked with CRM and marketing teams for customer segmentation, increasing click-through rates by 25%. Analyzed 12 months of transaction data using Pandas and Matplotlib to identify peak sales patterns.",
+          "cleaned and validated 10,000+ subscriber records to improve reporting accuracy by 15%. built SQL-based reports on churn and engagement. collaborated with CRM and marketing teams to segment customers and boost click-through rates by 25%.",
       },
       {
         year: "2023 - may 2025",
         title: "mba - business analytics",
         description:
-          "pursuing MBA with major in Business Analytics from GL Bajaj Institute of Technology and Management, Greater Noida. Focusing on data-driven decision making, business intelligence, and analytical methodologies.",
+          "pursuing MBA in Business Analytics from GL Bajaj Institute of Technology and Management, Greater Noida. focusing on data-driven decision-making and business intelligence.",
       },
       {
         year: "2020 - jun 2023",
         title: "bms - business and finance",
         description:
-          "bachelor of management studies with major in Business and Finance from Gopal Narayan Singh University, Sasaram. Built strong foundation in business fundamentals and financial analysis.",
+          "bachelor of management studies with major in Business and Finance from Gopal Narayan Singh University, Sasaram. gained foundational knowledge in management, finance, and analytics.",
       },
     ],
   },
@@ -160,64 +157,47 @@ open to conversations and opportunities in data analytics.`,
 export const projectsPageContent: ProjectPageContent = {
   seo: {
     title: "projects",
-    description: "Check out what I've been working on.",
+    description:
+      "A collection of analytics and business intelligence projects.",
     image: identity.logo,
   },
-  subtitle: "data-driven projects solving real business problems.",
+  subtitle: "data-driven projects turning insights into action.",
   projects: [
     {
-      title: "Retail Sales Trends Insights",
-      skills: "python · jupyter · pandas · numpy · matplotlib",
+      title: "SQL Music Store Analysis",
+      skills: "sql · query optimization · analytics",
       description:
-        "analyzed 53K+ retail transactions to identify customer behavior patterns and seasonal demand shifts. Discovered peak sales in May and found that women spent more on clothing during seasonal promotions. Used correlation analysis to confirm winter as the most profitable season, informing inventory planning.",
-      image: "/datematch.png",
+        "analyzed 11K+ music store records to identify top-performing artists, customers, and genres. discovered that Rock and Pop contributed 45%+ of total revenue, with the USA as the top market. built dashboards visualizing customer behavior and country-wise performance.",
+      image: "/project5.png",
       year: "feb 2025 - mar 2025",
-      url: "https://github.com/nikitasingh4",
+      url: "https://github.com/nikitasingh4/SQL_Music_Store_Analysis-",
     },
     {
-      title: "Walmart Sales Data Analysis",
-      skills: "sql · database management · business intelligence",
+      title: "SQL Case Studies Portfolio",
+      skills: "sql · case analysis · business metrics",
       description:
-        "maintained a database of 1,000+ Walmart sales records across three branches. Analyzed sales trends using SQL, uncovering that Electronic Accessories were top-selling items and E-Wallets were the preferred payment method for 38% of customers. Identified a 20% revenue gap between branches.",
+        "solved 15+ domain-diverse SQL case studies (finance, healthcare, retail) involving joins, CTEs, and subqueries. calculated key metrics like revenue growth, churn rate, and retention, and published reproducible SQL scripts on GitHub.",
       image: "/project1.png",
-      year: "jan 2025 - feb 2025",
-      url: "https://github.com/nikitasingh4",
+      year: "apr 2025 - may 2025",
+      url: "https://github.com/nikitasingh4/SQL-Case-Study",
     },
     {
       title: "Tableau Dashboards",
       skills: "tableau · data visualization · kpi tracking",
       description:
-        "created interactive dashboards including Kress Maintenance Prediction for predictive maintenance analytics, Netflix Data Analysis for content performance insights, and Airbnb Market Analysis for pricing and occupancy trends. Focused on actionable insights and intuitive visualization design.",
+        "developed interactive dashboards such as Kress Maintenance Prediction, Netflix Data Analysis, and Airbnb Market Insights. focused on user-centric design and delivering actionable business insights.",
       image: "/project5.png",
       year: "jan 2025 - feb 2025",
-      url: "https://github.com/nikitasingh4/Tableau-Project",
+      url: "https://public.tableau.com/app/profile/nikita.singh6825/vizzes",
     },
     {
-      title: "Bank Churn Predictor",
-      skills: "python · scikit-learn · smote · feature engineering",
+      title: "Retail Sales Trends Analysis",
+      skills: "python · pandas · matplotlib",
       description:
-        "end-to-end churn prediction system with model ensemble and SMOTE for handling imbalanced data. Built comprehensive feature engineering pipeline to identify at-risk customers and predict bank customer churn rates with high accuracy.",
-      image: "/project1.png",
-      year: "2024",
+        "analyzed 53K+ retail transactions to uncover customer behavior and seasonal sales trends. identified top-selling categories and peak demand periods to support strategic inventory planning.",
+      image: "/datematch.png",
+      year: "2025",
       url: "https://github.com/nikitasingh4",
-    },
-    {
-      title: "Hardware Company Sales Insights",
-      skills: "sql · data analysis · business metrics",
-      description:
-        "analyzed hardware company sales data to uncover revenue trends, top-performing products, and regional sales patterns. Provided actionable insights for sales strategy optimization and inventory management.",
-      image: "/honey.png",
-      year: "2024",
-      url: "https://github.com/nikitasingh4",
-    },
-    {
-      title: "SQL Music Store Analysis",
-      skills: "sql · query optimization · analytics",
-      description:
-        "comprehensive SQL analysis of music store database, demonstrating proficiency in complex queries, joins, aggregations, and window functions. Uncovered customer purchase patterns, popular genres, and revenue optimization opportunities.",
-      image: "/project5.png",
-      year: "2024",
-      url: "https://github.com/nikitasingh4/SQL_Music_Store_Analysis-",
     },
   ],
 };
