@@ -73,7 +73,7 @@ export const homePageContent: HomePageContent = {
   ],
 };
 
-// About (/about)
+// About (/About)
 export const aboutPageContent: AboutPageContent = {
   seo: {
     title: "about",
@@ -84,20 +84,18 @@ export const aboutPageContent: AboutPageContent = {
   subtitle: "my story",
   about: {
     description: `
-hi, i'm Nikita 👋
-
-I'm a Business Analyst with a passion for transforming data into actionable insights that help organizations grow.
-Based in Delhi-NCR, I combine analytical thinking with business understanding to solve data challenges.
+hi, i'm Nikita 
+I work as a Business Analyst in Delhi-NCR. I enjoy working with data, finding patterns, and using them to help businesses improve their performance. I like solving problems, learning new things, and turning information into clear and useful insights.
 
 my journey:
-• MBA in Business Analytics from GL Bajaj Institute (2025)
-• BMS in Business & Finance from Gopal Narayan Singh University (2023)
-• Developed strong expertise in SQL, Excel, Power BI, and Tableau for business intelligence and analytics
+• Completed MBA in Business Analytics from GL Bajaj Institute (2025)
+• Completed BMS in Business & Finance from Gopal Narayan Singh University (2023)
+• Skilled in SQL, Excel, Power BI, and Tableau, with a passion for transforming data  into actionable insights
 
 what i do:
 • Jr. Business Analyst at Movidu Technology (Jan 2025 – Sep 2025)
   - Prepared and automated weekly MIS dashboards in Excel and Power BI
-  - Analyzed 10K+ candidate assessment records from Movidu’s AI hiring tool, improving test quality and pass rates
+  - Analyzed candidate assessment records from Movidu’s AI hiring tool, improving test quality and pass rates
   - Created dashboards for 25+ academic institutions, increasing data visibility and engagement
 
 • Analytics Intern at Outlook Publishing (Sep 2024 – Dec 2024)
