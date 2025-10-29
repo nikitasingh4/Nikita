@@ -168,7 +168,7 @@ export const projectsPageContent: ProjectPageContent = {
         "analyzed 11K+ music store records to identify top-performing artists, customers, and genres. discovered that Rock and Pop contributed 45%+ of total revenue, with the USA as the top market. built dashboards visualizing customer behavior and country-wise performance.",
       image: "/project5.png",
       year: "feb 2025 - mar 2025",
-      url: "https://github.com/nikitasingh4/SQL_Music_Store_Analysis-",
+      url: "https://github.com/nikitasingh4/SQL_Music_Store_Analysis",
     },
     {
       title: "SQL Case Studies Portfolio",
