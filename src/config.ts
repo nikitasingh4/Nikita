@@ -166,16 +166,16 @@ export const projectsPageContent: ProjectPageContent = {
       skills: "sql · query optimization · analytics",
       description:
         "analyzed 11K+ music store records to identify top-performing artists, customers, and genres. discovered that Rock and Pop contributed 45%+ of total revenue, with the USA as the top market. built dashboards visualizing customer behavior and country-wise performance.",
-      image: "/project5.png",
+      image: "/project5.jpg",
       year: "feb 2025 - mar 2025",
-      url: "https://github.com/nikitasingh4/SQL_Music_Store_Analysis.git",
+      url: "https://github.com/nikitasingh4/SQL_Music_Store_Analysis",
     },
     {
       title: "SQL Case Studies Portfolio",
       skills: "sql · case analysis · business metrics",
       description:
         "solved 15+ domain-diverse SQL case studies (finance, healthcare, retail) involving joins, CTEs, and subqueries. calculated key metrics like revenue growth, churn rate, and retention, and published reproducible SQL scripts on GitHub.",
-      image: "/project1.png",
+      image: "/Sql.jpg",
       year: "apr 2025 - may 2025",
       url: "https://github.com/nikitasingh4/SQL-Case-Study",
     },
@@ -184,7 +184,7 @@ export const projectsPageContent: ProjectPageContent = {
       skills: "tableau · data visualization · kpi tracking",
       description:
         "developed interactive dashboards such as Kress Maintenance Prediction, Netflix Data Analysis, and Airbnb Market Insights. focused on user-centric design and delivering actionable business insights.",
-      image: "/project5.png",
+      image: "/Tableau.png",
       year: "jan 2025 - feb 2025",
       url: "https://public.tableau.com/app/profile/nikita.singh6825/vizzes",
     },
@@ -193,7 +193,7 @@ export const projectsPageContent: ProjectPageContent = {
       skills: "python · pandas · matplotlib",
       description:
         "analyzed 53K+ retail transactions to uncover customer behavior and seasonal sales trends. identified top-selling categories and peak demand periods to support strategic inventory planning.",
-      image: "/datematch.png",
+      image: "/Retail_Analytics.jpg",
       year: "2025",
       url: "https://github.com/nikitasingh4",
     },
