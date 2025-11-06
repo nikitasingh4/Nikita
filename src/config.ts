@@ -10,7 +10,7 @@ import type {
 export const identity: Identity = {
   name: "Nikita Singh",
   logo: "/pfp2.jpg",
-  email: "rajputnikitasingh43@gmail.com",
+  email: "nikkitya.singh@gmail.com",
 };
 
 export const navBarLinks: NavBarLink[] = [
